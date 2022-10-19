@@ -1,0 +1,146 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .categorie {
+    display: block;
+    width: 9em;
+    margin: 0.5em 0.1em;
+  }
+
+  .categorie svg {
+    margin: 0.8em auto;
+    display: block;
+    flex: 0 0 3.6em;
+    height: auto;
+    fill: #b9005f;
+  }
+
+  .categorie .link-disabled svg {
+    fill: #ddd;
+  }
+
+  .categorie p {
+    margin: auto 0.8em;
+  }
+
+  /* layout */
+
+  main {
+    display: block;
+    margin: auto;
+    height: 94vh;
+  }
+
+  .subject {
+    display: block;
+  }
+
+  .toptab {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .tab {
+    content: '';
+    width: 25em;
+    height: 3em;
+    display: block;
+    background-color: #fff;
+    margin: 0;
+    border-radius: 3em 10em 0 0;
+  }
+  
+  .curve {
+    content: '';
+    width: 3em;
+    height: 3em;
+    display: block;
+    background-color: #eee;
+    margin: 0 0 0 -0.8em;
+    border-radius: 0 5em 0 5em;
+    z-index: 1;
+  }
+  
+  .curve-bg  {
+    content: '';
+    width: 3em;
+    height: 2em;
+    display: block;
+    background-color: #fff;
+    margin: 0 0 0 -3em;
+    border-radius: 2em 5em 0 0;
+    z-index: 0;
+  }
+
+  .cntt {
+    width: 90vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2.5em auto;
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    width: 75vw;
+    margin: auto;
+  }
+
+  .intro {
+    width: 80vw;
+    margin: auto;
+    padding: 1em;
+  }
+
+  .options {
+    width: 80vw;
+    margin: auto;
+    padding: 1em;
+  }
+
+  .option-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .folder {
+    min-height: 20em;
+  }
+
+  /* Interface */
+
+  .ui-settings {
+    display: inline-flex;
+    align-items: center;
+    float: inline-end;
+    padding: 0 1.6em;
+    margin: 0em auto;
+  }
+
+  /* Typografie */
+  h1 {
+    font-size: 2em;
+    max-width: 20em;
+  }
+
+  h1 .toolgankelijk {
+    font-size: 2em;
+  }
+
+  p {
+    color: #444;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .cntt {
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3em auto;
+    flex-wrap: wrap;
+  }
+}

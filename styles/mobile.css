@@ -1,0 +1,266 @@
+@media (min-width: 320px) and (max-width: 440px) {
+  .categorie {
+    display: block;
+    width: auto;
+    margin: 0.5em 0.1em;
+  }
+
+  .categorie svg {
+    margin: 0.8em auto;
+    display: block;
+    flex: 0 0 3.6em;
+    height: auto;
+    fill: #b9005f;
+  }
+
+  .categorie .link-disabled svg {
+    fill: #ddd;
+  }
+
+  .categorie p {
+    margin: auto 0.8em;
+  }
+
+  /* Layout */
+
+  .subcat {
+    display: flex;
+    margin: 0.8em 0;
+    flex-wrap: wrap;
+  }
+  
+  .subcat-btn {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(#b9005f, );
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: end;
+    margin: 0.2em 0.4em;
+    padding: 0.4em 0.8em;
+    border-radius: 0.4em;
+    transition: 0.5s;
+  }
+
+  /* layout */
+
+  main {
+    display: block;
+    margin: 4em auto;
+  }
+
+  .subject {
+    display: block;
+  }
+
+  aside .cntt {
+    width: 10vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .toptab {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .tab {
+    content: '';
+    width: 6em;
+    height: 3em;
+    display: block;
+    background-color: #fff;
+    margin: 0;
+    border-radius: 3em 10em 0 0;
+  }
+  
+  .curve {
+    content: '';
+    width: 3em;
+    height: 3em;
+    display: block;
+    background-color: #eee;
+    margin: 0 0 0 -0.8em;
+    border-radius: 0 5em 0 5em;
+    z-index: 1;
+  }
+  
+  .curve-bg  {
+    content: '';
+    width: 3em;
+    height: 2em;
+    display: block;
+    background-color: #fff;
+    margin: 0 0 0 -3em;
+    border-radius: 2em 5em 0 0;
+    z-index: 0;
+  }
+
+  .wrapper {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .intro {
+    width: 80vw;
+    margin: 1em 1em;
+  }
+
+  .options {
+    width: 80vw;
+    margin: 0.5em 1em;
+  }
+
+  .option-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  /* Typografie */
+
+  h1 {
+    font-size: 2em;
+    max-width: 20em;
+  }
+
+  .toolgankelijk {
+    font-size: 2em;
+  }
+
+  .folder {
+    min-height: 25em;
+  }
+
+}
+
+@media (min-width: 441px) and (max-width: 767px) {
+  .categorie {
+    display: flex;
+    width: 12em;
+    margin: 0.8em;
+  }
+
+  .categorie svg {
+    margin: 0.8em 0.2em;
+    display: block;
+    width: 3.6em;
+    height: auto;
+    fill: #b9005f;
+  }
+
+  .categorie p {
+    margin: auto 0.8em;
+  }
+
+  /* layout */
+
+  main {
+    display: block;
+    margin: 4em auto;
+  }
+
+  .subject {
+    display: block;
+  }
+
+  aside {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .cntt {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2.5em auto;
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .intro {
+    width: 80vw;
+    margin: 1em 1em;
+  }
+
+  .options {
+    width: 80vw;
+    margin: 0.5em 1em;
+  }
+
+  .option-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.8em 0;
+  }
+
+  /* Interface */
+
+  .ui-settings {
+    display: inline-flex;
+    align-items: center;
+    float: inline-end;
+    padding: 0 1.6em;
+    margin: 1em auto;
+  }
+
+  /* Typografie */
+}
+
+@media (min-width: 380px) and (max-width: 480px) {
+
+    .toptab {
+        display: flex;
+        align-items: baseline;
+      }
+      
+      .tab {
+        content: '';
+        width: 10em;
+        height: 3em;
+        display: block;
+        background-color: #fff;
+        margin: 0;
+        border-radius: 3em 10em 0 0;
+      }
+      
+      .curve {
+        content: '';
+        width: 3em;
+        height: 3em;
+        display: block;
+        background-color: #eee;
+        margin: 0 0 0 -0.8em;
+        border-radius: 0 5em 0 5em;
+        z-index: 1;
+      }
+      
+      .curve-bg  {
+        content: '';
+        width: 3em;
+        height: 2em;
+        display: block;
+        background-color: #fff;
+        margin: 0 0 0 -3em;
+        border-radius: 2em 5em 0 0;
+        z-index: 0;
+      }
+}

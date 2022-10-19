@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
+    <title>Toolgankelijkheid · Robuust</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/mobile.css" />
+    <link rel="stylesheet" href="../styles/tablet.css" />
+    <link rel="stylesheet" href="../styles/desktop.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/va-favicon.png"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="/">
+        <img
+          id="logo"
+          src="../assets/logo.png"
+          alt="logo Vervoerregio Amsterdam"
+        />
+      </a>
+      <div id="after-curve"></div>
+    </header>
+
+    <!-- Hieronder bevinden zich de 4 hoofdcategorieën -->
+    <aside class="cntt">
+      <a href="waarneembaar.html" class="categorie">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          />
+        </svg>
+        <p>Waarneembaar</p>
+      </a>
+      <a href="./begrijpelijk.html" class="categorie">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          />
+        </svg>
+        <p>Begrijpelijk</p>
+      </a>
+      <a href="./bedienbaar.html" class="categorie">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          />
+        </svg>
+        <p>Bedienbaar</p>
+      </a>
+      <a href="./robuust.html" class="categorie">
+        <svg
+          viewBox="0 0 388 268"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M168.133 0H25.8667C17.2444 0 0 5.16 0 25.8V242C0 250.6 5.17333 267.8 25.8667 267.8H362.133C370.756 267.8 388 262.64 388 242V51.6C388 43 382.827 25.8 362.133 25.8H219.867C215.556 25.8 204.347 23.22 194 12.9C183.653 2.58 172.444 0 168.133 0Z"
+          />
+        </svg>
+        <p>Robuust</p>
+      </a>
+    </aside>
+
+    <!-- Dit is de sectie waar de content staat -->
+
+    <main class="subject">
+      <div class="toptab">
+        <div class="tab"></div>
+        <div class="curve"></div>
+        <div class="curve-bg"></div>
+      </div>
+      <section class="folder">
+        <div class="content">
+          <h1>Selecteer een onderwerp</h1>
+          <div class="subcat">
+            <button class="subcat-btn" data-id="article4_1">
+              4.1 Juiste HTML structuur
+            </button>
+            <button class="subcat-btn" data-id="article4_2">
+              4.2 Gebruik spaties & tabs
+            </button>
+            <button class="subcat-btn" data-id="article4_3">
+              4.3 Afbeeldingen met tekstalternatief
+            </button>
+            <button class="subcat-btn" data-id="article4_4">
+              4.4 Afbeeldingen met omschreven link
+            </button>
+            <button class="subcat-btn" data-id="article4_5">
+              4.5 Decoratieve afbeeldingen
+            </button>
+            <button class="subcat-btn" data-id="article4_6">
+              4.6 Audio & video alternatieven
+            </button>
+            <button class="subcat-btn" data-id="article4_7">
+              4.7 Visuele transscript
+            </button>
+            <button class="subcat-btn" data-id="article4_8">
+              4.8 Gebruik echte tabellen
+            </button>
+          </div>
+          <article
+            id="article4_1"
+            class="content-item hide"
+          >
+            <h1>
+              4.1 Is de juiste structuur van de tekst
+              aangegeven via de editor van het CMS of in
+              HTML-codes
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              Als een website “onder water” goed in elkaar
+              zit, dan is de basis voor toegankelijkheid
+              gelegd. Ontwikkelaars kunnen in de technische
+              standaard WCAG 2.1 meer lezen over technieken
+              die gebruikt kunnen worden om aan de
+              toegankelijkheidseisen te voldoen.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Voor het bouwen van websites zijn
+              internationale standaarden ontwikkeld. Door de
+              standaarden te volgen gebruik je de code op de
+              manier waarop deze bedoeld is.
+              Hulptechnologieën sluiten aan bij de ze
+              standaarden.
+            </p>
+          </article>
+          <article
+            id="article4_2"
+            class="content-item hide"
+          >
+            <h1>
+              4.2 Er zijn geen spaties of tabs gebruikt om
+              kolommen, tabellen of speciale teksteffecten
+              te maken.
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              Als je wilt dat jouw tekst in kolommen of in
+              een tabel verschijnt, gebruik dan niet de
+              spatiebalk of de tab-toets om dit te doen,
+              omdat dit de tekst onbegrijpelijk maakt voor
+              bezoekers die gebruik maken van
+              assistentietechnologie. Kolommen die op deze
+              manier worden aangemaakt worden rij voor rij
+              gelezen, niet kolom voor kolom.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Tabellen moeten gemaakt worden met de
+              tabelfuncties van de editor in het CMS. Voor
+              kolommen en woorden met letters die verder uit
+              elkaar staan, moet CSS gebruikt worden.
+            </p>
+          </article>
+          <article
+            id="article4_3"
+            class="content-item hide"
+          >
+            <h1>
+              4.3 Afbeeldingen die informatie overdragen
+              hebben een tekstueel alternatief
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              Door afbeeldingen te voorzien van een
+              tekstueel alternatief maak je ze dus
+              toegankelijk voor bezoekers die de
+              afbeeldingen niet kunnen zien. Ook
+              zoekmachines zoals Google maken gebruik van
+              tekstalternatieven bij het indexeren van
+              websites.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Een tekstueel alternatief werkt alleen als de
+              beschrijving adequaat is. In veel gevallen
+              gaat het om ‘vertellen wat je ziet’. Soms gaat
+              het juist om ‘vertellen wat dit doet’,
+              bijvoorbeeld bij een button in een formulier.
+              En als een afbeelding geen informatie
+              toevoegt, is het beter ook geen
+              tekstalternatief te geven. Denk goed na over
+              de tekstuele beschrijving. Iemand die alleen
+              de tekstalternatieven ziet zou de informatie
+              nog steeds moeten kunnen begrijpen en de
+              website nog steeds moeten kunnen gebruiken.
+            </p>
+          </article>
+          <article
+            id="article4_4"
+            class="content-item hide"
+          >
+            <h1>
+              4.4 Afbeeldingen die als link worden gebruikt,
+              hebben een alt-tekst die het doel van de link
+              beschrijft.
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              Wanneer het niet duidelijk is welk ingevuld
+              veld foutief is ingevuld kunnen gebruikers
+              vastlopen. De alt-tekst beschrijft het doel of
+              de richting van de afbeelding in plaats van de
+              afbeelding zelf.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Als de afbeelding in een link staat met een
+              tekst erbij, dan is de afbeelding ook
+              niet-informatief en ook dan volstaat een leeg
+              alt-attribuut. De screenreader leest dan de
+              linktekst op. Als de afbeelding aanklikbaar is
+              en in de link staat geen tekst, dan gebruik je
+              wel een alt-tekst en beschrijf je waar de
+              afbeelding naartoe linkt.
+            </p>
+          </article>
+          <article
+            id="article4_5"
+            class="content-item hide"
+          >
+            <h1>
+              4.5 Decoratieve afbeeldingen kunnen door
+              hulptechnologieën genegeerd worden.
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              Decoratieve afbeeldingen zijn niet relevant
+              voor gebruikers van hulptechnologieën. De
+              decoratieve afbeeldingen mogen de
+              begrijpelijkheid niet beïnvloeden.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Dit kan bijvoorbeeld door de alt-tekst leeg te
+              laten.
+            </p>
+          </article>
+          <article
+            id="article4_6"
+            class="content-item hide"
+          >
+            <h1>
+              4.6 Audio en video hebben een kort tekstueel
+              alternatief dat de inhoud beschrijft.
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              Alle vormen van audio en video moeten een kort
+              tekstalternatief krijgen. Dit is vergelijkbaar
+              met de alt-tekst van afbeeldingen. Door deze
+              korte tekst weten bezoekers die
+              hulptechnologie gebruiken, ook als de audio of
+              video zelf niet toegankelijk zou zijn, in
+              ieder geval waar ze mee te maken hebben.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Hoe je dit alternatief plaatst hangt af van de
+              techniek die gebruikt is om het
+              multimediabestand op de webpagina te plaatsen.
+            </p>
+          </article>
+          <article
+            id="article4_7"
+            class="content-item hide"
+          >
+            <h1>
+              4.7 Filmpjes, bewegend beeld en audio hebben
+              (indien nodig) een transcript.
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              In het transcript vertel je zo compleet
+              mogelijk het verhaal van het filmpje. Je
+              vertelt wat er gebeurt, dus wat er te zien en
+              te horen is, en wat er gezegd wordt, door wie.
+              Eventuele interactieve elementen neem je ook
+              op in het transcript.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Kun je in het filmpje bijvoorbeeld op een knop
+              drukken, dan neem je in het transcript een
+              link op naar de pagina waar je die actie kunt
+              uitvoeren.
+            </p>
+          </article>
+          <article
+            id="article4_8"
+            class="content-item hide"
+          >
+            <h1>
+              4.8 Informatie die in een tabel hoort, staat
+              ook écht in een tabel en heeft de juiste
+              HTML-code.
+            </h1>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.4759 16.95C11.1997 16.95 10.9759 16.7261 10.9759 16.45V10.5864C10.9759 10.3102 11.1997 10.0864 11.4759 10.0864H12.5181C12.7943 10.0864 13.0181 10.3102 13.0181 10.5864V16.45C13.0181 16.7261 12.7943 16.95 12.5181 16.95H11.4759Z"
+                  fill=""
+                />
+                <path
+                  d="M12.0018 8.63715C11.6982 8.63715 11.4377 8.53647 11.2204 8.33512C11.0062 8.13058 10.8992 7.88608 10.8992 7.60164C10.8992 7.32039 11.0062 7.07909 11.2204 6.87774C11.4377 6.67319 11.6982 6.57092 12.0018 6.57092C12.3054 6.57092 12.5643 6.67319 12.7784 6.87774C12.9958 7.07909 13.1044 7.32039 13.1044 7.60164C13.1044 7.88608 12.9958 8.13058 12.7784 8.33512C12.5643 8.53647 12.3054 8.63715 12.0018 8.63715Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z"
+                  fill=""
+                />
+              </svg>
+
+              <h2 class="uitleg">Uitleg</h2>
+            </div>
+            <p>
+              Gegevens in de tabel hebben zowel horizontaal
+              als verticaal een relatie met elkaar. Met de
+              juiste HTML-code kun je die relaties expliciet
+              maken. Je geeft dan aan welke cellen koppen
+              zijn en welke cellen gegevens bevatten. Bij
+              complexe tabellen geef je ook nog eens aan
+              welke kop precies bij welke cellen hoort.
+              Bezoekers die hulptechnologie gebruiken hebben
+              hier profijt van. Doordat de relaties in de
+              code staan kan de hulptechnologie de
+              informatie uit de tabel op een overzichtelijke
+              en logische manier presenteren.
+            </p>
+            <br />
+            <div>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 5C11.4477 5 11 5.44772 11 6C11 6.55229 11.4477 7 12 7C12.2626 7 12.5227 7.05173 12.7654 7.15224C13.008 7.25275 13.2285 7.40007 13.4142 7.58579C13.5999 7.7715 13.7473 7.99198 13.8478 8.23463C13.9483 8.47728 14 8.73736 14 9C14 9.55229 14.4477 10 15 10C15.5523 10 16 9.55229 16 9C16 8.47471 15.8965 7.95457 15.6955 7.46927C15.4945 6.98396 15.1999 6.54301 14.8284 6.17157C14.457 5.80014 14.016 5.5055 13.5307 5.30448C13.0454 5.10346 12.5253 5 12 5Z"
+                  fill=""
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1631 15.111C16.4902 15.6802 16 16.4725 16 17.3539C16 18.263 15.263 19 14.3539 19H9.64609C8.73698 19 8 18.263 8 17.3539C8 16.4725 7.50985 15.6802 6.83686 15.111C5.10173 13.6436 4 11.4504 4 9C4 4.58172 7.58172 1 12 1C16.4183 1 20 4.58172 20 9C20 11.4504 18.8983 13.6436 17.1631 15.111ZM15.8716 13.584C17.1766 12.4802 18 10.8373 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 10.8373 6.82336 12.4802 8.12838 13.584C9.02581 14.3429 9.8681 15.5206 9.98596 17H14.014C14.1319 15.5206 14.9742 14.3429 15.8716 13.584Z"
+                  fill=""
+                />
+                <path
+                  d="M8 22C8 21.4477 8.44772 21 9 21H15C15.5523 21 16 21.4477 16 22C16 22.5523 15.5523 23 15 23H9C8.44772 23 8 22.5523 8 22Z"
+                  fill=""
+                />
+              </svg>
+              <h2 class="tip">Tip</h2>
+            </div>
+            <p>
+              Sommige tabellen zitten heel ingewikkeld in
+              elkaar, met meerdere niveaus en koppen. Het
+              kan dan nodig zijn om code toe te voegen aan
+              de tabel om de verbanden duidelijk te maken.
+              Stel jezelf echter de vraag of de tabel niet
+              kan worden vereenvoudigd of gesplitst in
+              meerdere tabellen.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script
+      src="./scripts/script.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
