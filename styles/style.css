@@ -31,7 +31,9 @@ button {
 }
 
 button:hover {
-  background-color: #eee;
+  background-color: #fff;
+  border-radius: 0.4em;
+  transition: 0.8s;
 }
 
 button:focus {
@@ -100,6 +102,16 @@ header #logo::after {
 a {
   display: block;
   text-decoration: none;
+}
+
+.a-text {
+  color: #b9005f;
+}
+
+.a-text:hover {
+  color: #E30059;
+  opacity: 0.6;
+  transition: 0.4s ease-in-out;
 }
 
 aside {
@@ -233,11 +245,6 @@ a:focus {
   fill: #fff;
 }
 
-.ui-settings svg:hover {
-  fill: #f72e96;
-  transition: 0.8s;
-}
-
 .link-disabled {
   color: currentColor;
   cursor: not-allowed;
@@ -264,6 +271,10 @@ a:focus {
   padding: 0.4em 0.8em;
   border-radius: 0.4em;
   transition: 0.2s ease;
+}
+
+.subcat-btn h2 {
+  color: #fff;
 }
 
 .subcat-btn:active {
@@ -385,6 +396,10 @@ p {
   fill: #b9005f;
 }
 
+#fontIncrease {
+  transition: 0.4s;
+}
+
 /* Toggle tussen articles */
 
 article {
@@ -415,5 +430,5 @@ article {
 
 .content-item {
   transition: 0.8s;
-  padding: 0 0.8em;
+  padding: 0;
 }

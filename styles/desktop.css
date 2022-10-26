@@ -123,6 +123,13 @@
     min-height: 25em;
   }
 
+  .subject-img {
+    width: 100%;
+    padding: 2em 0 1em;
+    border-radius: 0.4em;
+    object-fit: cover;
+  }
+
   /* Interface */
   .ui-settings {
     display: flex;
