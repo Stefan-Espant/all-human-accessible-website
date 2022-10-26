@@ -23,6 +23,24 @@ header {
   /*background-color: #fff;*/
 }
 
+button {
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+  padding: 0.4em;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+button:focus {
+  background-color: #fff;
+  outline: none;
+  border-radius: 0.4em;
+  padding: 0.4em;
+}
+
 header #logo {
   width: auto;
   height: 5em;
@@ -196,8 +214,10 @@ a:focus {
   display: inline-flex;
   align-items: center;
   float: inline-end;
-  padding: 0 1.6em;
-  margin: 1em auto;
+  padding: 0em;
+  margin: 0em auto;
+  position: absolute;
+  right: 1em;
 }
 
 .ui-settings li {
@@ -260,6 +280,11 @@ a:focus {
   opacity: 0.66;
 }
 
+::selection {
+  background-color: rgba(227, 0, 89, 0.33);
+  opacity: 0.3;
+}
+
 /* Typografie */
 
 h1,
@@ -276,6 +301,7 @@ h6 {
 h1 {
   font-size: 2em;
   max-width: 20em;
+  letter-spacing: -0.02em;
 }
 
 .toolgankelijk {
@@ -285,14 +311,6 @@ h1 {
 h1 small {
   display: block;
   font-size: 50%;
-}
-
-.uitleg {
-  font-size: initial;
-}
-
-.tip {
-  font-size: initial;
 }
 
 p {
@@ -325,7 +343,7 @@ p {
 
 .tab {
   content: '';
-  width: 20em;
+  width: 16em;
   height: 3em;
   display: block;
   background-color: #fff;

@@ -71,7 +71,7 @@
   
   .tab {
     content: '';
-    width: 6em;
+    width: 8em;
     height: 3em;
     display: block;
     background-color: #fff;
@@ -218,12 +218,14 @@
     display: inline-flex;
     align-items: center;
     float: inline-end;
-    padding: 0 1.6em;
-    margin: 1em auto;
+    padding: 0 2em;
+    margin: 0em;
+    position: absolute;
+    right: 0em;
+  }
   }
 
   /* Typografie */
-}
 
 @media (min-width: 380px) and (max-width: 480px) {
 
@@ -234,7 +236,7 @@
       
       .tab {
         content: '';
-        width: 10em;
+        width: 12em;
         height: 3em;
         display: block;
         background-color: #fff;

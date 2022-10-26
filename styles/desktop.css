@@ -129,7 +129,10 @@
     align-items: center;
     float: inline-end;
     padding: 0 2em;
-    margin: 2em 0 0;
+    margin: 0em auto;
+    position: absolute;
+    right: 1em;
+  }
   }
 
   /* Typografie */

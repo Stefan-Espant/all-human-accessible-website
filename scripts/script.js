@@ -10,15 +10,18 @@ allButtons.forEach(item => {
         active.classList.remove('hide')
 
     })
-})
+});
 
-function increaseFontSize() {
-    const text = document.getElementsByClassName(".folder");
-    text.classList.toggle(".text120");
-}
 
-function increaseContrast() {
-    const element = document.body;
-    element.classList.toggle("dark-contrast");
-  } 
+//stappen plan voor een actie of microinteractie
+//1: selecteer het element in een variabele (queryselector)
+//2: event toevoegen (addEventlistener)
+//3: class aan een element toevoegen (classlist)
 
+function fontSize() {
+    const textincrease = document.getElementById("fontIncrease")
+    textincrease.classList.toggle('text-large')
+    textincrease.style.fontSize = textincrease.style.fontSize === '200%' ? '100%' : '200%'
+};
+
+//const increaseFontSize = document.querySelector('p')

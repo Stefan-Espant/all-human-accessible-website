@@ -115,6 +115,9 @@
     float: inline-end;
     padding: 0 1.6em;
     margin: 0em auto;
+    position: absolute;
+    right: 1em;
+  }
   }
 
   /* Typografie */
