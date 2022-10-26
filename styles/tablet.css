@@ -118,7 +118,7 @@
     position: absolute;
     right: 1em;
   }
-  }
+
 
   /* Typografie */
   h1 {
@@ -133,6 +133,7 @@
   p {
     color: #444;
   }
+
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
