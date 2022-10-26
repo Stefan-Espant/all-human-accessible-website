@@ -218,6 +218,7 @@ a:focus {
   margin: 0em auto;
   position: absolute;
   right: 1em;
+  height: 1em;
 }
 
 .ui-settings li {
@@ -274,6 +275,7 @@ a:focus {
   color: #b9005f;
   outline: none;
   transition: 0.8s;
+  padding: 0.2em 0.4em;
 }
 
 .subcat-btn:hover {
