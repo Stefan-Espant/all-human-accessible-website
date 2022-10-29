@@ -18,10 +18,25 @@ allButtons.forEach(item => {
 //2: event toevoegen (addEventlistener)
 //3: class aan een element toevoegen (classlist)
 
+//const increaseFontSize = document.querySelector('p')
+
 function fontSize() {
     const textincrease = document.getElementById("fontIncrease")
     textincrease.classList.toggle('text-large')
     textincrease.style.fontSize = textincrease.style.fontSize === '200%' ? '100%' : '200%'
 };
 
-//const increaseFontSize = document.querySelector('p')
+const allHeadingOne = document.querySelectorAll('h1');
+const allHeadingTwo = document.querySelectorAll('h2');
+const allUitleg = document.querySelectorAll('.Uitleg');
+const allTips = document.querySelectorAll('.tip');
+
+function colorChange() {
+    const allHeadingOne = document.querySelector('h1');
+    allHeadingOne.classList.toggle('dark-contrast');
+    allHeadingOne.addEventListener('click, colorChange()');
+
+    const allHeadingTwo = document.querySelector('h2');
+    allHeadingTwo.classList.toggle('dark-contrast');
+    allHeadingTwo.addEventListener('click, colorChange()');
+};

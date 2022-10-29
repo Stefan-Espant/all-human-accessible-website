@@ -411,6 +411,10 @@ article {
   display: none;
 }
 
+.content-item {
+  transition: 0.8s;
+  padding: 0;
+}
 
 
 /* Toggle tussen font sizes */
@@ -424,11 +428,6 @@ article {
 
 /* Verhoog contrast */
 .dark-contrast {
-  background-color: black;
-  color: white;
-}
-
-.content-item {
-  transition: 0.8s;
-  padding: 0;
+  color: #640032;
+  transition: 0.4s ease-in-out;
 }
