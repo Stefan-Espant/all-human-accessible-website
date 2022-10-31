@@ -27,16 +27,9 @@ function fontSize() {
 };
 
 const allHeadingOne = document.querySelectorAll('h1');
-const allHeadingTwo = document.querySelectorAll('h2');
-const allUitleg = document.querySelectorAll('.Uitleg');
-const allTips = document.querySelectorAll('.tip');
 
 function colorChange() {
     const allHeadingOne = document.querySelector('h1');
     allHeadingOne.classList.toggle('dark-contrast');
     allHeadingOne.addEventListener('click, colorChange()');
-
-    const allHeadingTwo = document.querySelector('h2');
-    allHeadingTwo.classList.toggle('dark-contrast');
-    allHeadingTwo.addEventListener('click, colorChange()');
 };

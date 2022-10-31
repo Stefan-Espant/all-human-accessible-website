@@ -6,14 +6,16 @@
       name="viewport"
       content="width=device-width,initial-scale=1"
     />
-    <title>
-        Toolgankelijkheid · Bedienbaar
-    </title>
+    <title>Toolgankelijkheid · Bedienbaar</title>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
     <link rel="stylesheet" href="styles/tablet.css" />
     <link rel="stylesheet" href="styles/desktop.css" />
-    <link rel="icon" type="image/png" href="./assets/va-favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/va-favicon.png"
+    />
   </head>
 
   <body>
@@ -87,153 +89,261 @@
         <div class="tab"></div>
         <div class="curve"></div>
         <div class="curve-bg"></div>
+        <!-- Dit zijn de twee knoppen om de toegankelijkheid van de content te verbeteren -->
+        <ul class="ui-settings">
+          <li>
+            <button
+              class="fontSize"
+              aria-label="Vergroot tekst"
+              onclick="fontSize()"
+            >
+              <svg
+                width="44"
+                height="36"
+                viewBox="0 0 33 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1123 20L12.1043 15.828H6.44827L5.46827 20H0.708266L6.56027 0.595999H12.1323L17.9843 20H13.1123ZM7.23227 12.496H11.3203L9.27627 3.928L7.23227 12.496ZM31.1399 15.688C31.1399 16.248 31.2146 16.6587 31.3639 16.92C31.5319 17.1813 31.7932 17.3773 32.1479 17.508L31.2239 20.392C30.3092 20.3173 29.5626 20.1213 28.9839 19.804C28.4052 19.468 27.9572 18.9453 27.6399 18.236C26.6692 19.7293 25.1759 20.476 23.1599 20.476C21.6852 20.476 20.5092 20.0467 19.6319 19.188C18.7546 18.3293 18.3159 17.2093 18.3159 15.828C18.3159 14.204 18.9132 12.9627 20.1079 12.104C21.3026 11.2453 23.0292 10.816 25.2879 10.816H26.7999V10.172C26.7999 9.29467 26.6132 8.69733 26.2399 8.38C25.8666 8.044 25.2132 7.876 24.2799 7.876C23.7946 7.876 23.2066 7.95067 22.5159 8.1C21.8252 8.23067 21.1159 8.41733 20.3879 8.66L19.3799 5.748C20.3132 5.39333 21.2652 5.12267 22.2359 4.936C23.2252 4.74933 24.1399 4.656 24.9799 4.656C27.1079 4.656 28.6666 5.09467 29.6559 5.972C30.6452 6.84933 31.1399 8.16533 31.1399 9.92V15.688ZM24.4479 17.312C25.4559 17.312 26.2399 16.836 26.7999 15.884V13.252H25.7079C24.6999 13.252 23.9439 13.4293 23.4399 13.784C22.9546 14.1387 22.7119 14.6893 22.7119 15.436C22.7119 16.0333 22.8612 16.5 23.1599 16.836C23.4772 17.1533 23.9066 17.312 24.4479 17.312Z"
+                  fill=""
+                />
+              </svg>
+            </button>
+          </li>
+
+          <li>
+            <button
+              class="contrast"
+              id="changeContrast"
+              aria-label="Vergroot kleur contrast"
+              onclick="colorChange()"
+            >
+              <svg
+                width="36"
+                height="36"
+                viewBox="0 0 36 36"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M18 36C27.9411 36 36 27.9411 36 18C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36ZM19.9943 32.0033C26.8608 31.0343 32.1429 25.134 32.1429 18C32.1429 10.866 26.8608 4.96574 19.9943 3.99665C18.9005 3.84229 18 4.75091 18 5.85548L18 18L18 30.1445C18 31.2491 18.9005 32.1577 19.9943 32.0033Z"
+                  fill=""
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
       </div>
       <section class="folder">
         <div class="content">
           <h1>Selecteer een onderwerp</h1>
           <div class="subcat">
-            <button
-              class="subcat-btn"
-              data-id="article3_1"
-            >
+            <button class="subcat-btn" data-id="article3_1">
               3.1 Toegankelijke CAPTCHA's
             </button>
-            <button
-              class="subcat-btn"
-              data-id="article3_2"
-            >
+            <button class="subcat-btn" data-id="article3_2">
               3.2 Bewegend beeld (3 sec.)
             </button>
-            <button
-              class="subcat-btn"
-              data-id="article3_3"
-            >
+            <button class="subcat-btn" data-id="article3_3">
               3.3 Invullen gegevens
             </button>
-            <button
-              class="subcat-btn"
-              data-id="article3_4"
-            >
+            <button class="subcat-btn" data-id="article3_4">
               3.4 Controle over fouten
             </button>
-            <button
-              class="subcat-btn"
-              data-id="article3_5"
-            >
+            <button class="subcat-btn" data-id="article3_5">
               3.5 Toetsenbord formulieren
             </button>
-            <button
-              class="subcat-btn"
-              data-id="article3_6"
-            >
-              3.6 Instructies invoervelden 
+            <button class="subcat-btn" data-id="article3_6">
+              3.6 Instructies invoervelden
             </button>
           </div>
-          <article id="article3_1" class="content-item hide">
-            <h1>
-              3.1 CAPTCHA’s zijn toegankelijk voor iedereen.  
-            </h1>
+          <article
+            id="article3_1"
+            class="content-item hide"
+          >
+            <h2>
+              3.1 CAPTCHA’s zijn toegankelijk voor iedereen.
+            </h2>
             <br />
             <div>
-              <h2 class="uitleg"><i class="fa-solid fa-circle-info"></i> Uitleg</h2>
+              <h3 class="uitleg">
+                <i class="fa-solid fa-circle-info"></i>
+                Uitleg
+              </h3>
             </div>
             <p>
-              Een toegankelijke CAPTCHA moet op zijn minst beschikbaar zijn als audiofragment welke je met het toetsenbord kan bereiken. 
+              Een toegankelijke CAPTCHA moet op zijn minst
+              beschikbaar zijn als audiofragment welke je
+              met het toetsenbord kan bereiken.
             </p>
             <br />
             <div>
-              <h2 class="tip"><i class="fa-regular fa-lightbulb"></i> Tip</h2>
+              <h3 class="tip">
+                <i class="fa-regular fa-lightbulb"></i> Tip
+              </h3>
             </div>
             <p>
-              Je kunt ook een vernieuwde CAPTCHA of andere controles gebruiken. 
-            </p>
-          </article>
-          <article id="article3_2" class="content-item hide">
-            <h1>
-              3.2 Bewegend beeld en geluid dat automatisch start kan uitgezet worden of stopt binnen 3 seconden.
-            </h1>
-            <br />
-            <div>
-              <h2 class="tip"><i class="fa-regular fa-lightbulb"></i> Tip</h2>
-            </div>
-            <p>
-              Beter is om helemaal geen beeld en geluid te gebruiken dat automatisch start.
-            </p>
-          </article>
-          <article id="article3_3" class="content-item hide">
-            <h1>
-              3.3 Bezoekers hebben geen last van een tijdslimiet bij het invullen van gegevens 
-            </h1>
-            <br />
-            <div>
-              <h2 class="uitleg"><i class="fa-solid fa-circle-info"></i> Uitleg</h2>
-            </div>
-            <p>
-              Sommige bezoekers hebben meer tijd dan gemiddeld nodig om gegevens in te vullen. Bijvoorbeeld omdat zij voorleessoftware gebruiken of dyslectisch zijn. Deze bezoekers moeten de tijdslimiet op kunnen heffen of verlengen.
-            </p>
-            <br />
-            <div>
-              <h2 class="tip"><i class="fa-regular fa-lightbulb"></i> Tip</h2>
-            </div>
-            <p>
-              Zorg ervoor dat de gebruiker de tijdslimiet kan stopzetten, aanpassen of uitbreiden
+              Je kunt ook een vernieuwde CAPTCHA of andere
+              controles gebruiken.
             </p>
           </article>
-          <article id="article3_4" class="content-item hide">
-            <h1>
-              3.4 Bezoekers kunnen zelf fouten voorkomen bij formulieren waarbij belangrijke acties in gang worden gezet door te annuleren, controleren of bevestigen.
-            </h1>
+          <article
+            id="article3_2"
+            class="content-item hide"
+          >
+            <h2>
+              3.2 Bewegend beeld en geluid dat automatisch
+              start kan uitgezet worden of stopt binnen 3
+              seconden.
+            </h2>
             <br />
             <div>
-              <h2 class="uitleg"><i class="fa-solid fa-circle-info"></i> Uitleg</h2>
+              <h3 class="tip">
+                <i class="fa-regular fa-lightbulb"></i> Tip
+              </h3>
             </div>
             <p>
-              Soms kan het verkeerd invullen van een formulier ingrijpende gevolgen hebben. Door bezoekers de mogelijkheid te bieden een inzending terug te trekken, help je hen grote fouten voorkomen.
-            </p>
-            <br />
-            <div>
-              <h2 class="tip"><i class="fa-regular fa-lightbulb"></i> Tip</h2>
-            </div>
-            <p>
-            Let vooral op bij wettelijke en financiële transacties, hier zijn de gevolgen het grootst. 
-            </p>
-          </article>
-          <article id="article3_5" class="content-item hide">
-            <h1>
-              3.5 Alle onderdelen van formulieren zijn via het toetsenbord te bereiken en bedienen in logische volgorde.
-            </h1>
-            <br />
-            <div>
-              <h2 class="uitleg"><i class="fa-solid fa-circle-info"></i> Uitleg</h2>
-            </div>
-            <p>
-              Een formulier wat bruikbaar is d.m.v. het toetsenbord zorgt voor een betere gebruikservaring. 
-            </p>
-            <br />
-            <div>
-              <h2 class="tip"><i class="fa-regular fa-lightbulb"></i> Tip</h2>
-            </div>
-            <p>
-              Gebruik een passende styling die bij de vormgeving past en ook nog eens toegankelijk is.
+              Beter is om helemaal geen beeld en geluid te
+              gebruiken dat automatisch start.
             </p>
           </article>
-          <article id="article3_6" class="content-item hide">
-            <h1>
-              3.6 Alle invoervelden hebben een duidelijke instructie.
-            </h1>
+          <article
+            id="article3_3"
+            class="content-item hide"
+          >
+            <h2>
+              3.3 Bezoekers hebben geen last van een
+              tijdslimiet bij het invullen van gegevens
+            </h2>
             <br />
             <div>
-              <h2 class="uitleg"><i class="fa-solid fa-circle-info"></i> Uitleg</h2>
+              <h3 class="uitleg">
+                <i class="fa-solid fa-circle-info"></i>
+                Uitleg
+              </h3>
             </div>
             <p>
-              Stel jezelf als beheerder de vraag wat je van de gebruiker wilt vragen. Is een invoerveld noodzakelijk? Mogen gebruikers een typefoutje maken?
+              Sommige bezoekers hebben meer tijd dan
+              gemiddeld nodig om gegevens in te vullen.
+              Bijvoorbeeld omdat zij voorleessoftware
+              gebruiken of dyslectisch zijn. Deze bezoekers
+              moeten de tijdslimiet op kunnen heffen of
+              verlengen.
             </p>
             <br />
             <div>
-              <h2 class="tip"><i class="fa-regular fa-lightbulb"></i> Tip</h2>
+              <h3 class="tip">
+                <i class="fa-regular fa-lightbulb"></i> Tip
+              </h3>
             </div>
             <p>
-              Bied namen en alt-tekst aan invoervelden en groepeer bij elkaar horende velden, uiteraard met voldoende tussenruimte
+              Zorg ervoor dat de gebruiker de tijdslimiet
+              kan stopzetten, aanpassen of uitbreiden
+            </p>
+          </article>
+          <article
+            id="article3_4"
+            class="content-item hide"
+          >
+            <h2>
+              3.4 Bezoekers kunnen zelf fouten voorkomen bij
+              formulieren waarbij belangrijke acties in gang
+              worden gezet door te annuleren, controleren of
+              bevestigen.
+            </h2>
+            <br />
+            <div>
+              <h3 class="uitleg">
+                <i class="fa-solid fa-circle-info"></i>
+                Uitleg
+              </h3>
+            </div>
+            <p>
+              Soms kan het verkeerd invullen van een
+              formulier ingrijpende gevolgen hebben. Door
+              bezoekers de mogelijkheid te bieden een
+              inzending terug te trekken, help je hen grote
+              fouten voorkomen.
+            </p>
+            <br />
+            <div>
+              <h3 class="tip">
+                <i class="fa-regular fa-lightbulb"></i> Tip
+              </h3>
+            </div>
+            <p>
+              Let vooral op bij wettelijke en financiële
+              transacties, hier zijn de gevolgen het
+              grootst.
+            </p>
+          </article>
+          <article
+            id="article3_5"
+            class="content-item hide"
+          >
+            <h2>
+              3.5 Alle onderdelen van formulieren zijn via
+              het toetsenbord te bereiken en bedienen in
+              logische volgorde.
+            </h2>
+            <br />
+            <div>
+              <h3 class="uitleg">
+                <i class="fa-solid fa-circle-info"></i>
+                Uitleg
+              </h3>
+            </div>
+            <p>
+              Een formulier wat bruikbaar is d.m.v. het
+              toetsenbord zorgt voor een betere
+              gebruikservaring.
+            </p>
+            <br />
+            <div>
+              <h3 class="tip">
+                <i class="fa-regular fa-lightbulb"></i> Tip
+              </h3>
+            </div>
+            <p>
+              Gebruik een passende styling die bij de
+              vormgeving past en ook nog eens toegankelijk
+              is.
+            </p>
+          </article>
+          <article
+            id="article3_6"
+            class="content-item hide"
+          >
+            <h2>
+              3.6 Alle invoervelden hebben een duidelijke
+              instructie.
+            </h2>
+            <br />
+            <div>
+              <h3 class="uitleg">
+                <i class="fa-solid fa-circle-info"></i>
+                Uitleg
+              </h3>
+            </div>
+            <p>
+              Stel jezelf als beheerder de vraag wat je van
+              de gebruiker wilt vragen. Is een invoerveld
+              noodzakelijk? Mogen gebruikers een typefoutje
+              maken?
+            </p>
+            <br />
+            <div>
+              <h3 class="tip">
+                <i class="fa-regular fa-lightbulb"></i> Tip
+              </h3>
+            </div>
+            <p>
+              Bied namen en alt-tekst aan invoervelden en
+              groepeer bij elkaar horende velden, uiteraard
+              met voldoende tussenruimte
             </p>
           </article>
         </div>
@@ -243,6 +353,9 @@
       src="./scripts/script.js"
       type="text/javascript"
     ></script>
-    <script src="https://kit.fontawesome.com/45c29531a0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/45c29531a0.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

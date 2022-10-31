@@ -50,6 +50,12 @@
     margin: 4em auto;
   }
 
+  footer {
+    width: 90vw;
+    display: block;
+    margin: 4em auto;
+  }
+
   .subject {
     display: block;
   }

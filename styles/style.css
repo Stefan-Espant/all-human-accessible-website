@@ -38,9 +38,15 @@ button:hover {
 
 button:focus {
   background-color: #fff;
-  outline: none;
+  outline: 0.2em solid #b9005f;
   border-radius: 0.4em;
   padding: 0.4em;
+  transition: 0.4s;
+}
+
+button:focus-visible {
+  outline: 0.2em solid #b9005f;
+  transition: 0.4s;
 }
 
 header #logo {
@@ -102,10 +108,11 @@ header #logo::after {
 a {
   display: block;
   text-decoration: none;
+  color: #b9005f;
 }
 
 .a-text {
-  color: #b9005f;
+  display: inline;
 }
 
 .a-text:hover {
@@ -207,9 +214,13 @@ li {
 a:focus {
   background-color: #fff;
   border-radius: 0.4em;
-  color: #fff;
   fill: #fff;
-  outline: none;
+  outline: 0.2em solid #b9005f;
+}
+
+a:focus-visible {
+  outline: 0.2em solid #b9005f;
+  transition: 0.4s;
 }
 
 /*button:focus {
@@ -284,7 +295,7 @@ a:focus {
 .subcat-btn:focus {
   background-image: linear-gradient(95.6deg, #fafafa, #eee);
   color: #b9005f;
-  outline: none;
+  outline: 0.2em solid #b9005f;
   transition: 0.8s;
   padding: 0.2em 0.4em;
 }
@@ -326,6 +337,18 @@ h1 small {
   font-size: 50%;
 }
 
+h2 {
+  font-size: 1.5em;
+  max-width: 20em;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: 1.2em;
+  max-width: 20em;
+  letter-spacing: -0.02em;
+}
+
 p {
   color: #444;
   max-width: 30em;
@@ -336,6 +359,10 @@ p {
 
 .subject {
   display: block;
+}
+
+.subject-img {
+  width: 80vw;
 }
 
 .folder {
@@ -426,7 +453,7 @@ article {
   font-size: 1em * 100%;
 }
 
-/* Verhoog contrast */
+/* Increase contrast */
 .dark-contrast {
   color: #640032;
   transition: 0.4s ease-in-out;
