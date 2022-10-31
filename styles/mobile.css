@@ -54,6 +54,7 @@
     width: 90vw;
     display: block;
     margin: 4em auto;
+    float: right;
   }
 
   .subject {
