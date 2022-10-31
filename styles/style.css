@@ -48,6 +48,10 @@ header {
   /*background-color: #fff;*/
 }
 
+footer {
+  float: right;
+}
+
 button {
   background-color: #eee;
   border: none;
