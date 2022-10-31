@@ -1,3 +1,28 @@
+:root {
+
+  /* color */
+  --c-white: #fff;
+  --c-red: #E30059;
+  --c-yellow: #FFD05F;
+  --c-green: #25AE93;
+  --c-teal: #46BECD;
+  --c-blue: #606eb3;
+  --c-magenta: #B9005F;
+  --c-brown: #6A4955;
+  --c-dirt: #C9B5B2;
+  --c-black: #111;
+
+    /* background-color */
+    --bg-red: #E30059;
+    --bg-yellow: #FFD05F;
+    --bg-green: #25AE93;
+    --bg-teal: #46BECD;
+    --bg-blue: #606eb3;
+    --bg-magenta: #B9005F;
+    --bg-brown: #6A4955;
+    --bg-dirt: #C9B5B2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -309,6 +334,40 @@ a:focus-visible {
   opacity: 0.3;
 }
 
+/* color */
+
+.c-white {
+  color: var( --c-white);
+}
+
+.c-red {
+  color: var( --c-red);
+}
+
+.c-yellow {
+  color: var( --c-yellow);
+}
+
+.c-green {
+  color: var( --c-green);
+}
+
+.c-teal {
+  color: var( --c-teal);
+}
+
+.bg-red {
+  background-color: var(--bg-red);
+}
+
+.bg-yellow {
+  background-color: var(--bg-yellow);
+}
+
+.bg-green {
+  background-color: var(--bg-green);
+}
+
 /* Typografie */
 
 h1,
@@ -349,10 +408,58 @@ h3 {
   letter-spacing: -0.02em;
 }
 
+h4 {
+  font-size: 1em;
+  max-width: 30em;
+  letter-spacing: -0.02em;
+  color: #444;
+}
+
 p {
   color: #444;
   max-width: 30em;
   line-height: 1.4;
+}
+
+.emotion {
+  width: 1em;
+  aspect-ratio: 1/1;
+  font-size: 2em;
+  margin: 0.2em;
+}
+
+.emotion-group {
+    margin: 1em;
+}
+
+#emotion-group{
+  display: block;
+}
+
+.emotion-group-btns {
+  margin: 1em 0;
+}
+
+.btn-emotion .emotion {
+  color: var(--c-white);
+}
+
+.btn-emotion:hover .emotion {
+  color: var(--c-black);
+}
+
+.btn-emotion:focus .emotion {
+  color: var(--c-magenta);
+}
+
+.btn-emotion {
+  margin: 0 0.4em;
+  border-radius: 0.4em;
+}
+
+.btn-emotion:hover {
+  background-color: var(--c-white);
+  color: #444;
 }
 
 /* Folder section */

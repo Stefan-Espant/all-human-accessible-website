@@ -140,6 +140,11 @@
     font-size: 2em;
   }
 
+  .emotion {
+    aspect-ratio: 1/1;
+    font-size: 3em;
+  }
+
   .folder {
     min-height: 25em;
   }

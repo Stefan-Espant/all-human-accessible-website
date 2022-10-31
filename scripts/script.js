@@ -33,3 +33,8 @@ function colorChange() {
     allHeadingOne.classList.toggle('dark-contrast');
     allHeadingOne.addEventListener('click, colorChange()');
 };
+
+function sendEmotion() {
+    var element = document.getElementById("emotion-group");
+    element.classList.toggle("thanku4feedback");
+  }
