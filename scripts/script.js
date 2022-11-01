@@ -1,3 +1,4 @@
+const body = document.querySelector('body')
 const allButtons = document.querySelectorAll('.subcat-btn')
 const allContent = document.querySelectorAll('.content-item')
 
@@ -26,15 +27,17 @@ function fontSize() {
     textincrease.style.fontSize = textincrease.style.fontSize === '200%' ? '100%' : '200%'
 };
 
-const allHeadingOne = document.querySelectorAll('h1');
+const contrastTrigger = document.querySelector('.contrast-trigger');
 
-function colorChange() {
-    const allHeadingOne = document.querySelector('h1');
-    allHeadingOne.classList.toggle('dark-contrast');
-    allHeadingOne.addEventListener('click, colorChange()');
-};
+// function colorChange() {
+//     const allHeadingOne = document.querySelector('h1');
+//     allHeadingOne.classList.toggle('dark-contrast');
+// };
+contrastTrigger.addEventListener('click', () => {
+    body.classList.toggle('dark-contrast')
+});
 
 function sendEmotion() {
     var element = document.getElementById("emotion-group");
     element.classList.toggle("thanku4feedback");
-  }
+}

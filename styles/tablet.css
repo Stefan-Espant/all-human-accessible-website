@@ -10,7 +10,7 @@
     display: block;
     flex: 0 0 3.6em;
     height: auto;
-    fill: #b9005f;
+    fill: var(--c-magenta);
   }
 
   .categorie .link-disabled svg {
@@ -110,6 +110,11 @@
 
   .folder {
     min-height: 20em;
+  }
+
+  .subject-img {
+    width: 80em;
+    object-fit: cover;
   }
 
   /* Interface */

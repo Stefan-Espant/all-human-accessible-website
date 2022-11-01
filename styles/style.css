@@ -11,16 +11,6 @@
   --c-brown: #6A4955;
   --c-dirt: #C9B5B2;
   --c-black: #111;
-
-    /* background-color */
-    --bg-red: #E30059;
-    --bg-yellow: #FFD05F;
-    --bg-green: #25AE93;
-    --bg-teal: #46BECD;
-    --bg-blue: #606eb3;
-    --bg-magenta: #B9005F;
-    --bg-brown: #6A4955;
-    --bg-dirt: #C9B5B2;
 }
 
 * {
@@ -39,6 +29,7 @@ body {
   width: 100vw;
   font-family: Fira sans, sans-serif;
   background-color: #eee;
+  transition: 0.8s ease-in-out;
 }
 
 header {
@@ -67,14 +58,14 @@ button:hover {
 
 button:focus {
   background-color: #fff;
-  outline: 0.2em solid #b9005f;
+  outline: 0.2em solid var(--c-magenta);
   border-radius: 0.4em;
   padding: 0.4em;
   transition: 0.4s;
 }
 
 button:focus-visible {
-  outline: 0.2em solid #b9005f;
+  outline: 0.2em solid var(--c-magenta);
   transition: 0.4s;
 }
 
@@ -137,7 +128,7 @@ header #logo::after {
 a {
   display: block;
   text-decoration: none;
-  color: #b9005f;
+  color: var(--c-magenta);
 }
 
 .a-text {
@@ -145,7 +136,7 @@ a {
 }
 
 .a-text:hover {
-  color: #E30059;
+  color: var(--c-red);
   opacity: 0.6;
   transition: 0.4s ease-in-out;
 }
@@ -198,7 +189,7 @@ aside a {
   width: 3.6em;
   flex: 0 0 3em;
   height: auto;
-  fill: #b9005f;
+  fill: var(--c-magenta);
 }
 
 .categorie .link-disabled svg {
@@ -244,18 +235,18 @@ a:focus {
   background-color: #fff;
   border-radius: 0.4em;
   fill: #fff;
-  outline: 0.2em solid #b9005f;
+  outline: 0.2em solid var(--c-magenta);
 }
 
 a:focus-visible {
-  outline: 0.2em solid #b9005f;
+  outline: 0.2em solid var(--c-magenta);
   transition: 0.4s;
 }
 
 /*button:focus {
   background-color: #fff;
   border-radius: 0.4em;
-  color: #b9005f;
+  color: var(--c-magenta);
   fill: #fff;
   outline: none;
 }
@@ -278,7 +269,7 @@ a:focus-visible {
 }
 
 .ui-settings svg {
-  fill: #b9005f;
+  fill: var(--c-magenta);
 }
 
 .ui-settings svg:focus {
@@ -302,7 +293,7 @@ a:focus-visible {
 .subcat-btn {
   width: auto;
   height: auto;
-  background-image: linear-gradient(95.6deg, #b9005f, #E30059);
+  background-image: linear-gradient(95.6deg, var(--c-magenta), var(--c-red));
   color: #fff;
   border: none;
   cursor: pointer;
@@ -323,8 +314,8 @@ a:focus-visible {
 
 .subcat-btn:focus {
   background-image: linear-gradient(95.6deg, #fafafa, #eee);
-  color: #b9005f;
-  outline: 0.2em solid #b9005f;
+  color: var(--c-magenta);
+  outline: 0.2em solid var(--c-magenta);
   transition: 0.8s;
   padding: 0.2em 0.4em;
 }
@@ -360,16 +351,20 @@ a:focus-visible {
   color: var( --c-teal);
 }
 
+.c-black {
+  color: var( --c-black);
+}
+
 .bg-red {
-  background-color: var(--bg-red);
+  background-color: var(--c-red);
 }
 
 .bg-yellow {
-  background-color: var(--bg-yellow);
+  background-color: var(--c-yellow);
 }
 
 .bg-green {
-  background-color: var(--bg-green);
+  background-color: var(--c-green);
 }
 
 /* Typografie */
@@ -382,7 +377,7 @@ h5,
 h6 {
   font-family: Fira Sans, sans-serif;
   font-weight: initial;
-  color: #b9005f;
+  color: var(--c-magenta);
 }
 
 h1 {
@@ -531,7 +526,7 @@ p {
 
 .content svg {
   margin: 0 0.2em 0 -0.4em;
-  fill: #b9005f;
+  fill: var(--c-magenta);
 }
 
 #fontIncrease {
@@ -566,6 +561,11 @@ article {
 
 /* Increase contrast */
 .dark-contrast {
-  color: #640032;
-  transition: 0.4s ease-in-out;
+  --c-red: #aa0044;
+  --c-yellow: #cc9515;
+  --c-green: #096351;
+  --c-teal: #1c5f68;
+  --c-blue: #1f2d74;
+  --c-magenta: #640032;
+  transition: 0.4s ease-out;
 }

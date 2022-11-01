@@ -10,7 +10,7 @@
     display: block;
     flex: 0 0 3.6em;
     height: auto;
-    fill: #b9005f;
+    fill: var(--c-magenta);
   }
 
   .categorie .link-disabled svg {
@@ -32,7 +32,7 @@
   .subcat-btn {
     width: auto;
     height: auto;
-    background-image: linear-gradient(#b9005f, );
+    background-image: linear-gradient(var(--c-magenta), );
     color: #fff;
     border: none;
     cursor: pointer;
@@ -130,6 +130,11 @@
     justify-content: space-around;
   }
 
+  .subject-img {
+    width: 100%;
+    object-fit: cover;
+  }
+
   /* Typografie */
 
   h1 {
@@ -164,7 +169,7 @@
     display: block;
     width: 3.6em;
     height: auto;
-    fill: #b9005f;
+    fill: var(--c-magenta);
   }
 
   .categorie p {

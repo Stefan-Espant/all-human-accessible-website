@@ -10,7 +10,7 @@
     display: block;
     flex: 0 0 3.6em;
     height: auto;
-    fill: #b9005f;
+    fill: var(--c-magenta);
   }
 
   .categorie .link-disabled svg {
@@ -48,7 +48,7 @@
 
   .tab {
     content: "";
-    width: 25em;
+    width: 50%;
     height: 3em;
     display: block;
     background-color: #fff;
