@@ -22,7 +22,7 @@ De sitemap begint op de landingspagina met een minimalistische opmaak. Het besta
 
 
 
-http://stefan-vervoeregio-amsterdam.student.fdnd.nl/ 
+https://stefan-espant.github.io/all-human-accessible-website/ 
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
