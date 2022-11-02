@@ -262,7 +262,7 @@ main a{
 }
 
 #desktop {
-  display: none;
+  display: block;
 }
 
 article a:hover {
