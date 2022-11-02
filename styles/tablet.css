@@ -30,8 +30,31 @@
 
   footer {
     width: 90vw;
+    display: flex;
+    margin: auto;
+    float: none;
+  }
+
+  footer .emotion-group {
+    margin: 1em 0;
+    width: 45vw;
+  }
+  
+  footer nav {
+    display: flex;
+    width: auto;
+    margin: auto;
+  }
+  
+  footer nav .footer-links {
     display: block;
-    margin: 0em auto 2em;
+  }
+  
+  .footer-links a {
+    display: block;
+    width: auto;
+    padding: 0.4em;
+    margin: 0.8em;
   }
 
   .subject {
@@ -45,7 +68,7 @@
   
   .tab {
     content: '';
-    width: 25em;
+    width: 22em;
     height: 3em;
     display: block;
     background-color: #fff;

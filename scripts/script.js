@@ -37,7 +37,13 @@ contrastTrigger.addEventListener('click', () => {
     body.classList.toggle('dark-contrast')
 });
 
+
 function sendEmotion() {
-    var element = document.getElementById("emotion-group");
-    element.classList.toggle("thanku4feedback");
+    const element = document.getElementById('emotion-group')
+    const html = `
+        <div style="height: 3em;">
+            <h3>Bedankt voor uw feedback</h3>
+        </div>
+    `
+    element.innerHTML = html
 }

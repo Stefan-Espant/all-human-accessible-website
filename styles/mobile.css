@@ -62,8 +62,9 @@
   }
 
   footer nav .footer-links {
-    display: flex;
+    display: block;
     margin: 2em 0;
+    width: 80vw;
   }
 
   footer nav a {
@@ -112,7 +113,7 @@
   
   .tab {
     content: '';
-    width: 8em;
+    width: 5em;
     height: 3em;
     display: block;
     background-color: #fff;
@@ -217,6 +218,19 @@
     margin: 4em auto;
   }
 
+  footer {
+    display: block;
+    width: 80vw;
+    margin: 1em auto;
+    float: none;
+  }
+
+  footer nav {
+    display: flex;
+    width: 100vw;
+    margin: auto;
+  }
+
   .subject {
     display: block;
   }
@@ -288,7 +302,7 @@
       
       .tab {
         content: '';
-        width: 12em;
+        width: 8em;
         height: 3em;
         display: block;
         background-color: #fff;
@@ -333,6 +347,14 @@
       footer nav .footer-links {
         display: flex;
         margin: 2em 0;
+        width: 90vw;
+      }
+
+      .footer-links a {
+        display: block;
+        width: 12em;
+        padding: 0.4em;
+        margin: 0.8em;
       }
     
       footer nav a {
