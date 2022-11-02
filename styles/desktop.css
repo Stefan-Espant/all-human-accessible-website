@@ -36,6 +36,10 @@
     float: right;
   }
 
+  #desktop {
+    display: block;
+  }
+
   .subject {
     display: inline-block;
     margin: 4em 0 0em;

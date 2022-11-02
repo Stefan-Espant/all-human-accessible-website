@@ -261,6 +261,10 @@ main a{
   padding: 0.8em;
 }
 
+#desktop {
+  display: none;
+}
+
 article a:hover {
     background-color: #b9006033;
     transition: 0.4s;

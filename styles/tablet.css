@@ -25,7 +25,11 @@
 
   main {
     display: block;
-    margin: auto;
+    margin: 4em auto;
+  }
+
+  #desktop {
+    display: none;
   }
 
   footer {
