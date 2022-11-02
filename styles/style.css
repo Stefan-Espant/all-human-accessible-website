@@ -257,6 +257,10 @@ main {
   margin: auto;
 }
 
+main a{
+  padding: 0.8em;
+}
+
 main a:hover {
     background-color: #b9006033;
     transition: 0.4s;
@@ -636,10 +640,10 @@ article {
 /* Increase contrast */
 .dark-contrast {
   --c-red: #aa0044;
-  --c-yellow: #cc9515;
+  --c-yellow: #755300;
   --c-green: #096351;
   --c-teal: #1c5f68;
-  --c-blue: #1f2d74;
-  --c-magenta: #640032;
+  --c-blue: #485593;
+  --c-magenta: #800041;
   transition: 0.4s ease-out;
 }

@@ -346,13 +346,13 @@
     
       footer nav .footer-links {
         display: flex;
-        margin: 2em 0;
+        margin: 2em auto;
         width: 90vw;
       }
 
       .footer-links a {
         display: block;
-        width: 12em;
+        width: auto;
         padding: 0.4em;
         margin: 0.8em;
       }
