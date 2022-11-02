@@ -259,10 +259,11 @@ main {
 
 main a{
   padding: 0.8em;
+  display: inline-block;
 }
 
 #desktop {
-  display: block;
+  display: none;
 }
 
 article a:hover {
@@ -332,7 +333,7 @@ a:focus-visible {
 }
 
 .ui-settings a {
-  width: 3em;
+  width: auto;
   margin: 0;
   padding: 0.2em;
   font-size: 2em;

@@ -29,6 +29,11 @@
     margin: auto;
   }
 
+  main a {
+    padding: 0.8em;
+    display: inline-block;
+  }
+
   footer {
     width: 70vw;
     display: flex;

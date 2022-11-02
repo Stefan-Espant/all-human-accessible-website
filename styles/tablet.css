@@ -28,6 +28,11 @@
     margin: 4em auto;
   }
 
+  main a {
+    padding: 0.8em;
+    display: inline-block;
+  }
+
   #desktop {
     display: none;
   }
