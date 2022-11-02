@@ -78,8 +78,8 @@ footer .social-media-group {
 
 .social-media-group div a {
   display: flex;
-  margin: 0;
   padding: 0.4em;
+  margin: 0.2em;
 }
 
 button {
