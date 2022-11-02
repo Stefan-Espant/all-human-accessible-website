@@ -58,7 +58,7 @@ footer nav .footer-links {
 .footer-links a {
   display: block;
   width: auto;
-  padding: 0.4em;
+  padding: 0.4em 0.8em;
   margin: 0.8em;
 }
 
@@ -255,6 +255,12 @@ main {
   width: 90vw;
   display: block;
   margin: auto;
+}
+
+main a:hover {
+    background-color: #b9006033;
+    transition: 0.4s;
+    border-radius: 0.4em;
 }
 
 .index {
