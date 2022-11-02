@@ -40,7 +40,43 @@ header {
 }
 
 footer {
+  display: flex;
   float: right;
+}
+
+footer nav {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+footer nav .footer-links {
+  display: block;
+}
+
+.footer-links a {
+  display: block;
+  width: 12em;
+}
+
+.footer-link i {
+  margin: 0 0.4em 0 0em;
+}
+
+footer .social-media-group {
+  margin: auto;
+}
+
+.social-media-group div {
+  margin: auto;
+  padding: 0.4em;
+  display: flex;
+}
+
+.social-media-group div a {
+  display: flex;
+  margin: 0;
+  padding: 0.4em;
 }
 
 button {
@@ -126,9 +162,17 @@ header #logo::after {
 }
 
 a {
-  display: block;
   text-decoration: none;
   color: var(--c-magenta);
+  transition: 0.4s ease-in-out;
+  transform-origin: center;
+  padding: 0.8em 1.2em;
+}
+
+a:hover {
+  background-color: var(--c-white);
+  transition: 0.4s;
+  border-radius: 0.4em;
 }
 
 .a-text {
@@ -264,8 +308,20 @@ a:focus-visible {
   height: 1em;
 }
 
+.ui-settings a {
+  width: 3em;
+  margin: 0;
+  padding: 0.2em;
+  font-size: 2em;
+  border-radius: 0.2em;
+}
+
+.ui-settings a:focus {
+  outline: 0.1em solid var(--c-magenta);
+}
+
 .ui-settings li {
-  margin: 0 0.5em;
+  margin: 0 0.4em;
 }
 
 .ui-settings svg {
@@ -411,7 +467,6 @@ h4 {
   font-size: 1em;
   max-width: 30em;
   letter-spacing: -0.02em;
-  color: #444;
 }
 
 p {
@@ -420,11 +475,12 @@ p {
   line-height: 1.4;
 }
 
-.emotion {
+.icon {
   width: 1em;
   aspect-ratio: 1/1;
   font-size: 2em;
   margin: 0.2em;
+  transition: 0.8s ease-in-out;
 }
 
 .emotion-group {
@@ -433,21 +489,23 @@ p {
 
 #emotion-group{
   display: block;
+  width: auto;
 }
 
 .emotion-group-btns {
   margin: 1em 0;
 }
 
-.btn-emotion .emotion {
+.btn-emotion .icon {
   color: var(--c-white);
+  transition: 0.8s ease-in-out;
 }
 
-.btn-emotion:hover .emotion {
+.btn-emotion:hover .icon {
   color: var(--c-black);
 }
 
-.btn-emotion:focus .emotion {
+.btn-emotion:focus .icon {
   color: var(--c-magenta);
 }
 
@@ -542,7 +600,7 @@ article {
 
 .hide {
   display: none;
-}
+}x
 
 .content-item {
   transition: 0.8s;

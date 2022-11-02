@@ -31,7 +31,7 @@
 
   footer {
     width: 70vw;
-    display: block;
+    display: flex;
     margin: 0em auto 2em;
     float: right;
   }

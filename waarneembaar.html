@@ -20,13 +20,11 @@
 
   <body>
     <header>
-      <a href="/">
-        <img
-          id="logo"
-          src="assets/logo.png"
-          alt="logo Vervoerregio Amsterdam"
-        />
-      </a>
+      <img
+        id="logo"
+        src="assets/logo.png"
+        alt="logo Vervoerregio Amsterdam"
+      />
       <div id="after-curve"></div>
     </header>
 
@@ -91,6 +89,13 @@
         <div class="curve-bg"></div>
         <!-- Dit zijn de twee knoppen om de toegankelijkheid van de content te verbeteren -->
         <ul class="ui-settings">
+          <li>
+            <a
+              href="/" aria-label="Ga terug naar de homepagina"
+            >
+            <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
           <li>
             <button
               class="fontSize"
@@ -485,33 +490,71 @@
           Maak een keuze uit de onderstaande knoppen
         </h4>
         <div
-        class="emotion-group-btns"
-        aria-label=""
-        id="emotion-group"
-      >
-        <button
-          class="btn-emotion bg-green"
-          aria-label="blije smiley."
-          onclick="sendEmotion()"
+          class="emotion-group-btns"
+          aria-label=""
+          id="emotion-group"
         >
-          <i class="emotion fa-regular fa-face-smile"></i>
-        </button>
-        <button
-          class="btn-emotion bg-yellow"
-          aria-label="neutrale smiley."
-          onclick="sendEmotion()"
-        >
-          <i class="emotion c-black fa-regular fa-face-meh"></i>
-        </button>
-        <button
-          class="btn-emotion bg-red"
-          aria-label="ongelukkige smiley."
-          onclick="sendEmotion()"
-        >
-          <i class="emotion fa-regular fa-face-frown"></i>
-        </button>
+          <button
+            class="btn-emotion bg-green"
+            aria-label="blije smiley."
+            onclick="sendEmotion()"
+          >
+            <i class="icon fa-regular fa-face-smile"></i>
+          </button>
+          <button
+            class="btn-emotion bg-yellow"
+            aria-label="neutrale smiley."
+            onclick="sendEmotion()"
+          >
+            <i
+              class="icon c-black fa-regular fa-face-meh"
+            ></i>
+          </button>
+          <button
+            class="btn-emotion bg-red"
+            aria-label="ongelukkige smiley."
+            onclick="sendEmotion()"
+          >
+            <i class="icon fa-regular fa-face-frown"></i>
+          </button>
         </div>
       </div>
+      <nav>
+        <div class="footer-links">
+        <a
+          href="mailto:info@vervoeregio.nl"
+          aria-label="Stuur een e-mail naar Vervoeregio Amsterdam."
+          ><i class="fa-solid fa-envelope"></i>  Contact ons</a
+        >
+        <a
+        href=""
+        aria-label="Lees meer info over de ontwikkelaar van Toolgankeljk."
+        ><i class="fa-solid fa-address-card"></i> Over deze tool</a
+      >
+    </div>
+        <div class="social-media-group">
+          <h3 class="c-magenta">
+            Deel deze tool op:
+          </h3>
+          <div>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+              class="fb-xfbml-parse-ignore"
+              aria-label="Deel deze website op Facebook."
+              ><i
+                class="icon fa-brands fa-square-facebook"
+              ></i
+            ></a>
+            <a
+            class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text=Hello%20world"
+              aria-label="Deel deze website op Twitter."
+              ><i class="icon fa-brands fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
     </footer>
     <script
       src="./scripts/script.js"
@@ -520,6 +563,14 @@
     <script
       src="https://kit.fontawesome.com/45c29531a0.js"
       crossorigin="anonymous"
+    ></script>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v15.0"
+      nonce="TpOVwmNv"
     ></script>
   </body>
 </html>

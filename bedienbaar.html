@@ -20,13 +20,11 @@
 
   <body>
     <header>
-      <a href="/">
         <img
           id="logo"
           src="assets/logo.png"
           alt="logo Vervoerregio Amsterdam"
         />
-      </a>
       <div id="after-curve"></div>
     </header>
 
@@ -92,6 +90,13 @@
         <!-- Dit zijn de twee knoppen om de toegankelijkheid van de content te verbeteren -->
         <ul class="ui-settings">
           <li>
+            <a
+              href="/" aria-label="Ga terug naar de homepagina"
+            >
+            <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li>
             <button
               class="fontSize"
               aria-label="Vergroot tekst"
@@ -114,10 +119,9 @@
 
           <li>
             <button
-              class="contrast"
+              class="contrast-trigger"
               id="changeContrast"
               aria-label="Vergroot kleur contrast"
-              onclick="colorChange()"
             >
               <svg
                 width="36"

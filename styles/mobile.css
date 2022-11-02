@@ -32,7 +32,6 @@
   .subcat-btn {
     width: auto;
     height: auto;
-    background-image: linear-gradient(var(--c-magenta), );
     color: #fff;
     border: none;
     cursor: pointer;
@@ -51,10 +50,45 @@
   }
 
   footer {
-    width: 90vw;
     display: block;
-    margin: 4em auto;
-    float: right;
+    margin: 1em auto;
+    width: 100vw;
+  }
+
+  footer nav {
+    display: block;
+    width: auto;
+    margin: 1em;
+  }
+
+  footer nav .footer-links {
+    display: flex;
+    margin: 2em 0;
+  }
+
+  footer nav a {
+    display: inline-block;
+    margin: auto;
+  }
+  
+
+  footer nav .icon {
+    display:flex;
+    margin: auto;
+    width: auto;
+  }
+
+  footer .social-media-group {
+    margin: 1em;
+  }
+
+  footer .social-media-group a {
+    margin: 0 0.4em;
+  }
+  
+  #emotion-group {
+    display: block;
+    width: 90vw;
   }
 
   .subject {
@@ -282,5 +316,42 @@
         margin: 0 0 0 -3em;
         border-radius: 2em 5em 0 0;
         z-index: 0;
+      }
+
+      footer {
+        display: block;
+        margin: 1em auto;
+        width: 100vw;
+      }
+    
+      footer nav {
+        display: block;
+        width: auto;
+        margin: 1em;
+      }
+    
+      footer nav .footer-links {
+        display: flex;
+        margin: 2em 0;
+      }
+    
+      footer nav a {
+        display: inline-block;
+        margin: auto;
+      }
+      
+    
+      footer nav .icon {
+        display:flex;
+        margin: auto;
+        width: auto;
+      }
+    
+      footer .social-media-group {
+        margin: 1em;
+      }
+    
+      footer .social-media-group a {
+        margin: 0 0.4em;
       }
 }
