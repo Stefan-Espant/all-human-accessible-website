@@ -184,7 +184,6 @@ a:hover {
 
 .a-text:hover {
   color: var(--c-red);
-  opacity: 0.6;
   transition: 0.4s ease-in-out;
 }
 
