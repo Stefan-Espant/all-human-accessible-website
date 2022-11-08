@@ -13,10 +13,11 @@
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 De user story die ik koos luidde alsvolgt:
-> Als organisatie wil ik een overzicht van toegankelijkheidsverbeteringen kunnen bekijken, zodat ik een gevoel kan krijgen wat er moet gebeuren om mijn website/app toegankelijker te maken op het terrein van waarneembaarheid, robuustheid, begrijpelijkheid en bedienbaarheid
+> Als organisatie wil ik een overzicht van toegankelijkheidsverbeteringen kunnen bekijken, zodat ik een gevoel kan krijgen wat er moet gebeuren om mijn 
+website/app toegankelijker te maken op het terrein van waarneembaarheid, robuustheid, begrijpelijkheid en bedienbaarheid
 
-<img width="100%" alt="Schermafbeelding 2022-10-12 om 11 44 02" src="https://user-images.githubusercontent.com/89298385/195309618-5ff95782-0ab2-4ec2-b7ef-5c17933e360b.png">
-<img width="100%" alt="Schermafbeelding 2022-10-12 om 11 50 22" src="https://user-images.githubusercontent.com/89298385/195317104-6f9d6fcc-5dff-4179-8939-8b5cf158c576.png">
+<img width="100%" alt="Schermafbeelding 2022-11-08 om 11 29 56" src="https://user-images.githubusercontent.com/89298385/200541607-26df96eb-b8a8-4a4a-bfce-cc1acccb91ba.png">
+<img width="100%" alt="Schermafbeelding 2022-11-08 om 11 30 11" src="https://user-images.githubusercontent.com/89298385/200541618-da7f8558-3f81-4ea6-993a-ce14b042dd16.png">
 
 De sitemap begint op de landingspagina met een minimalistische opmaak. Het bestaat uit 3 onderdelen: een header, een main die is opgesplitst in 2 secties (de titel van het product en de aside met 4 hoofdcatergorieën).
 
